@@ -8,7 +8,7 @@ while True:
     if n==guess:
         print("toping")
         break
-    
+    guesses+=1
     if guesses>=3:
         print('yutqazding')
         break
